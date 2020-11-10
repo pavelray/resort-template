@@ -756,6 +756,10 @@ a:hover {
   padding: 12px 0;
 }
 
+.dropdown-menu-header{
+  margin-left: 10px;
+}
+
 @media (min-width: 768px) {
   .navbar-default .dropdown .dropdown-menu {
     border-top: 4px solid #2eca6a;
@@ -820,7 +824,7 @@ a:hover {
 
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
   position: absolute;
-  left: 12px;
+  left: 0px;
   top: 10px;
   transform: rotate(135deg);
   opacity: 0.9;
@@ -834,7 +838,7 @@ a:hover {
 
 .navbar-toggler:not(.collapsed) span:nth-child(3) {
   position: absolute;
-  left: 12px;
+  left: 0px;
   top: 10px;
   transform: rotate(-135deg);
   opacity: 0.9;
@@ -878,6 +882,13 @@ a:hover {
 @media (max-width: 575px) {
   .box-collapse .title-box-d .title-d {
     font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 575px){
+  .btn.btn-link.nav-search.navbar-toggle-box-collapse.d-md-none{
+    font-size: 1rem;
+    font-weight: bold;
   }
 }
 
